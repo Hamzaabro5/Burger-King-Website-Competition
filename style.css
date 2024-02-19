@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4ebdc;
+}
+.bar{
+    font-size: 30px;
+    margin: 0px 200px;
+    color: #582818;
+}
+.bk-logo{
+    margin: 0px 330px;
+}
+.nav-button-1{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: #df2302d8;
+}
+.nav-button-2{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: #5a0e00d8;
+}
+.location-text{
+    font-size: 15px;
+    color: #582818  ;
+    margin-left: 200px;
+}
+.text-brown{
+    color: #582818;
+}
+.order-text{
+    color: #582818;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+
+
+
+@media (max-width: 800px){
+    .nav-button2{
+        visibility: hidden;
+    }
+
+}
