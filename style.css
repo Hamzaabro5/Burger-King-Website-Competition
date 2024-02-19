@@ -1,9 +1,11 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f4ebdc;
+}
+head{
+    position: fixed;
 }
 .bar{
     font-size: 30px;
@@ -15,6 +17,7 @@
 }
 .nav-button-1{
     padding: 10px 15px;
+    margin-right: 20px;
     border: none;
     border-radius: 30px;
     color: #fff;
@@ -22,14 +25,20 @@
     font-weight: 800;
     background-color: #df2302d8;
 }
+.nav-button-1:hover{
+    background-color: #a11901fd
+}
 .nav-button-2{
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: none;
     border-radius: 30px;
     color: #fff;
     font-size: 12px;
     font-weight: 800;
     background-color: #5a0e00d8;
+}
+.nav-button-2:hover{
+    background-color: #af1b01;
 }
 .location-text{
     font-size: 15px;
@@ -41,12 +50,12 @@
 }
 .order-text{
     color: #582818;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 50px;
 }
 .order-button-1{
     border: none;
-    padding: 10px 45px;
+    padding: 10px 65px;
     border-radius: 40px;
     color: #fff;
     font-size: 20px;
@@ -56,16 +65,31 @@
 
 .order-button-2{
     border: 2px solid #df2302d8;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 40px;
     color: #df2302d8;
     font-size: 20px;
     font-weight: 700;
     background-color: transparent;
 }
-
-
-
+.order-button-1:hover{
+    background-color: #771301fd;
+}
+.order-button-2:hover{
+    background-color: #eedfdf;
+}
+.card-1{
+    width: 600px;
+}
+.card-button{
+    border: 2px solid #cc2002d8;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #cc2002d8;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: transparent;
+}
 
 @media (max-width: 800px){
     .nav-button2{
