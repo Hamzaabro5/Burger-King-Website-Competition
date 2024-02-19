@@ -44,7 +44,25 @@
     font-weight: bolder;
     font-size: 50px;
 }
+.order-button-1{
+    border: none;
+    padding: 10px 45px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #df2302d8;
+}
 
+.order-button-2{
+    border: 2px solid #df2302d8;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #df2302d8;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+}
 
 
 
