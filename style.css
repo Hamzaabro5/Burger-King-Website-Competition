@@ -106,7 +106,12 @@ head{
 .bg-brown{
     background-color: #492214;
 }
-
+.credit{
+    background-color: #582818;
+    color: #f4ebdc;
+    text-align: center;
+    font-size: 18px;
+}
 
 
 
